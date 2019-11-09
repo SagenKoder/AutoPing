@@ -63,7 +63,6 @@ public class AutoPingMain {
                     robot.keyPress(16);
                     Thread.sleep(30L);
                     robot.keyRelease(16);
-                    throw new RuntimeException("asd");
                 } catch (Exception e) {
                     System.err.println("Critical error occurred while trying to press keys!");
                     e.printStackTrace();
